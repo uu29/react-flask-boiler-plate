@@ -1,0 +1,59 @@
+/*---------------COLOR---------------*/
+$font-color: #111;
+$main-color: #2654a5;
+$gray-color: #9b9b9b;
+$strong-color: #f15a24;
+
+.color-main {
+  color: $main-color;
+}
+
+.color-gray {
+  color: $gray-color;
+}
+
+.color-strong {
+  color: $strong-color;
+}
+
+/*---------------LAYOUT---------------*/
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+/*---------------BUTTON---------------*/
+.common-button-1 {
+  color: $main-color;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 2px solid $main-color;
+  border-radius: 4px;
+}
+
+.common-button-2 {
+  width: 70px;
+  height: 30px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/*---------------BG-COLOR---------------*/
+.bg-main {
+  color: #fff;
+  background-color: $main-color;
+}
+
+.bg-gray {
+  color: #fff;
+  background-color: $gray-color;
+}
+
+.bg-strong {
+  color: #fff;
+  background-color: $strong-color;
+}

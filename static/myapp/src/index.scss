@@ -1,0 +1,54 @@
+@import './variables';
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+span,
+p,
+ul,
+li,
+dl,
+dt {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+  color: $font-color;
+  box-sizing: border-box;
+}
+
+button {
+  text-align: center;
+  display: inline-block;
+  border: 0 none;
+  background: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+tr,
+td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 1rem;
+}
+
+thead tr {
+  background: $main-color;
+  color: #fff;
+}
